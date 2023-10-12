@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Program
+class SortNumber
 {
     static void Main()
     {
@@ -17,7 +17,6 @@ class Program
             {
                 if (numbers[i] > numbers[j])
                 {
-                    // สลับค่าของตัวแปร numbers[i] และ numbers[j]
                     int temp = numbers[i];
                     numbers[i] = numbers[j];
                     numbers[j] = temp;
